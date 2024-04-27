@@ -17,8 +17,6 @@ function closeSidebar() {
 }
 
 
-
-
  const forms = document.querySelector(".forms"),
       pwShowHide = document.querySelectorAll(".eye-icon"),
       links = document.querySelectorAll(".link");
@@ -42,7 +40,7 @@ pwShowHide.forEach(eyeIcon => {
 
 links.forEach(link => {
     link.addEventListener("click", e => {
-       e.preventDefault(); //preventing form submit
+       e.preventDefault();
        forms.classList.toggle("show-signup");
     })
 })
@@ -54,9 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Get the user icon element
     var userIcon = document.getElementById("user-icon");
 
-    // Add click event listener to the user icon
     userIcon.addEventListener("click", function() {
-        // Redirect the user to the login.html page
         window.location.href = "login.html";
     });
 });
