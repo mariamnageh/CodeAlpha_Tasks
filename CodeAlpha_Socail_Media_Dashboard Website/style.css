@@ -477,13 +477,13 @@ a.facebook .facebook-icon {
     transform: translateY(-50%);
     font-size: 30px;
     color: #1da1f2;
-    /* Twitter color */
+  
 }
 
 .media-options a.twitter {
     color: #fff;
     background-color: #1d80be;
-    /* Twitter color */
+ 
 }
 
 .media-options a.twitter span {
@@ -493,7 +493,7 @@ a.facebook .facebook-icon {
 }
 
 
-/* --------------------------------------------*/
+
 
 .linkedin-icon,
 .instagram-icon {
@@ -506,13 +506,13 @@ a.facebook .facebook-icon {
 .linkedin-icon {
     font-size: 20px;
     color: #9ebbcc;
-    /* LinkedIn color */
+  
 }
 
 .instagram-icon {
     font-size: 20px;
     color: #611523;
-    /* Instagram color */
+   
 }
 
 .media-options a {
@@ -526,13 +526,13 @@ a.facebook .facebook-icon {
 a.linkedin {
     color: #fff;
     background-color: #3a6d88;
-    /* LinkedIn color */
+    
 }
 
 a.instagram {
     color: #fff;
     background-color: #994756;
-    /* Instagram color */
+   
 }
 
 a.linkedin span,
